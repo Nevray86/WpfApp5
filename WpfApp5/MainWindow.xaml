@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer Margin="0,0,0,345">
+            <StackPanel>
+                <TextBlock  HorizontalAlignment="Center" >
+                    <TextBox x:Name="_list" TextWrapping="Wrap"
+                              Width="97" Height="303"
+                        />
+
+
+                </TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+        <Button Content="войти" x:Name="Add" HorizontalAlignment="Left" Margin="80,64,0,0" VerticalAlignment="Top" Width="120" Height="45" Click="Add_Click"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Left" Margin="80,124,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Height="45"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="80,189,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Height="45" RenderTransformOrigin="-0.042,0.556"/>
+
+
+
+
+    </Grid>
+</Window>
